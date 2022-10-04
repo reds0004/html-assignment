@@ -1,39 +1,118 @@
 body{
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif
+    color: #534055;
+    background-color: #326156;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
 
-header{
-    background-color: gray;
+header, footer{
+    background-color: #FFC929;
+    padding: 8px;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
+
+.site-title{
+    color: red;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 13px;
+}
+
+nav ul li{
+    background-color: #36FFCC;
+    color: #534055;
+    margin-right: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10%;
+    list-style: none;
+
+}
+
+li:nth-of-type(odd){
+    background-color: white;
+}
+
+#my-image{
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 1px black;
 }
 
 figure{
-    background-color: navy;
+    background-color: #EB3EFF;
+    padding: 16px;
+}
+
+article{
+    background-color: #FFC929;
+    padding: 10px;
 }
 
 p{
-    color: red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #EB3EFF;
+    padding: 3px;
 }
 
 ul{
-    color: blueviolet;
+    background-color: #EB3EFF;
+    color: #534055;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    padding-left: 30px;
 }
 
-ul a{
-    color: green;
+li{
+    list-style: square;
 }
 
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-a:hover{
-    color:darkgoldenrod;
+li a{
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid black;
 }
 
-abbr:hover{
-    color: darkgoldenrod;
+a:hover{
+    color: blue;
+    background-color: #534055;
+}
+
+
+blockquote{
+    color: #FFC929;
+    text-align: left;
+}
+
+footer p {
+    color: #FFC929;
+}
+
+dl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin: 13px;
+}
+
+dl{
+    background-color: #36FFCC;
+    color: #534055;
+    margin-right: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
