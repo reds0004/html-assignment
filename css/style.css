@@ -37,7 +37,7 @@ nav ul li{
 
 }
 
-li:nth-of-type(odd){
+ul.hobbies li:nth-of-type(odd){
     background-color: white;
 }
 
